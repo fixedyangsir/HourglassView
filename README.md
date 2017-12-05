@@ -54,7 +54,8 @@
 <br />
                 hourglassView.pause();<br />
 <br />
-                hourglassView.setStateListener(new HourglassView.OnStateListener() {
+                hourglassView.setStateListener(new HourglassView.OnStateListener() {<br />
+
                     @Override
                     public void onStart() {
 
