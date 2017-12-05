@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HourglassView">
+        <!--上下盖子颜色-->
+        <attr name="hv_topAndBottom_color" format="color"/>
+        <!--左右线条颜色-->
+        <attr name="hv_leftAndRight_color" format="color"/>
+        <!--沙子颜色-->
+        <attr name="hv_sand_color" format="color"/>
+        <!--沙子全部下落的时间-->
+        <attr name="hv_duration" format="integer"/>
+        <!--沙漏的扁度默认7.5f-->
+        <attr name="hv_flat" format="float"/>
+        <!--是否自动开始-->
+        <attr name="hv_auto" format="boolean"/>
+
+
+    </declare-styleable>
+</resources>
