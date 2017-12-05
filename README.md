@@ -1,7 +1,7 @@
 # HourglassView
 这是一个仿沙漏的自定义view效果
 
-使用方式：
+使用方式：项目build.gradle添加
        dependencies {
 
              compile 'com.yzy:HourglassView:1.0.0'
@@ -48,7 +48,7 @@
 
                 hourglassView.end();
 
-                //minSKD>=19
+                //minSDK>=19
 
                 hourglassView.resume();
 
