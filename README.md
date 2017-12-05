@@ -11,7 +11,7 @@
 
 
 相关自定义属性<br />
-      <com.yzy.library.HourglassView
+      <com.yzy.library.HourglassView<br />
            xmlns:app="http://schemas.android.com/apk/res-auto"<br />
            android:id="@+id/HourglassView"<br />
            //宽度无效width=height / 2 + height / mFalt(扁度)<br />
@@ -54,14 +54,14 @@
 <br />
                 hourglassView.pause();<br />
 <br />
-                hourglassView.setStateListener(new HourglassView.OnStateListener() {<br />
-                    @Override<br />
-                    public void onStart() {<br />
+                hourglassView.setStateListener(new HourglassView.OnStateListener() {
+                    @Override
+                    public void onStart() {
 
-                    }<br />
+                    }
 
-                    @Override<br />
-                    public void onEnd() {<br />
-<br />
-                    }<br />
-                });<br />
+                    @Override
+                    public void onEnd() {
+
+                    }
+                });
