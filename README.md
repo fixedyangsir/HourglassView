@@ -4,10 +4,8 @@
 使用方式：项目build.gradle添加<br />
        dependencies <br />
        {
-
              compile 'com.yzy:HourglassView:1.0.0'
-
-       }<br />
+       }
 
 <br />
 <br />
