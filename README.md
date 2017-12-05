@@ -2,13 +2,15 @@
 这是一个仿沙漏的自定义view效果<br />
 
 使用方式：项目build.gradle添加<br />
-       dependencies {<br />
+       dependencies <br />
+       {
 
-             compile 'com.yzy:HourglassView:1.0.0'<br />
+             compile 'com.yzy:HourglassView:1.0.0'
 
        }<br />
 
-
+<br />
+<br />
 
 相关自定义属性<br />
       <com.yzy.library.HourglassView<br />
