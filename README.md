@@ -1,10 +1,10 @@
 # HourglassView
-这是一个仿沙漏的自定义view效果<br />
+##这是一个仿沙漏的自定义view效果<br />
 
-使用方式：项目build.gradle添加<br />
-       dependencies <br />
+##使用方式：
+####项目build.gradle添加依赖<br />
 
-       {
+       dependencies {
 
              compile 'com.yzy:HourglassView:1.0.0'
 
@@ -13,7 +13,9 @@
 <br />
 <br />
 
-相关自定义属性<br />
+##相关自定义属性<br />
+xml:
+
       <com.yzy.library.HourglassView<br />
            xmlns:app="http://schemas.android.com/apk/res-auto"<br />
            android:id="@+id/HourglassView"<br />
@@ -21,42 +23,34 @@
            android:layout_width="wrap_content"<br />
            //设置高度，宽度自动计算<br />
            android:layout_height="100dp"<br />
-           //沙子颜色<br />
            app:hv_sand_color="@color/colorAccent"<br />
-           //左右边框颜色<br />
            app:hv_leftAndRight_color="#00C4FF"<br />
-           //上下盖子颜色<br />
            app:hv_topAndBottom_color="#844F01"<br />
-           //控制扁度默认7.5,建议3-10<br />
            app:hv_flat="7.5"<br />
-           //动画时间<br />
            app:hv_duration="6000"<br />
-           //是否自动默认开启动画fasle<br />
            app:hv_auto="false"<br />
             /><br />
 
-代码设置<br />
+##代码设置<br />
 <br />
+
+                //动画时间<br />
                 hourglassView.setDuration(6000);<br />
-<br />
+                //左右边框颜色<br />
                 hourglassView.setLeftAndRightColor(color);<br />
-<br />
+                //上下盖子颜色<br />
                 hourglassView.setTopAndBottomColor(color);<br />
-<br />
+                //沙子颜色<br />
                 hourglassView.setSandColor(color);<br />
-<br />
+                //扁度默认7.5f 建议3-10<br />
                 hourglassView.setFalt(float);<br />
-<br />
+                //开启动画<br />
                 hourglassView.start();<br />
-<br />
+                //结束动画
                 hourglassView.end();<br />
-<br />
                 //minSDK>=19<br />
-<br />
-                hourglassView.resume();<br />
-<br />
                 hourglassView.pause();<br />
-<br />
+                //状态监听
                 hourglassView.setStateListener(new HourglassView.OnStateListener() {<br />
 
                     @Override
@@ -69,3 +63,4 @@
 
                     }
                 });
+                
