@@ -1,8 +1,8 @@
 # HourglassView
-##这是一个仿沙漏的自定义view效果<br />
+## 这是一个仿沙漏的自定义view效果<br />
 
-##使用方式：<br />
-####项目build.gradle添加依赖<br />
+## 使用方式：<br />
+#### 项目build.gradle添加依赖<br />
 
        dependencies {
 
@@ -13,7 +13,7 @@
 <br />
 <br />
 
-##相关自定义属性<br />
+## 相关自定义属性<br />
 xml:
 
       <com.yzy.library.HourglassView
@@ -31,8 +31,8 @@ xml:
            app:hv_auto="false"
             />
 
-##代码设置<br />
-<br />
+## 代码设置<br />
+
 
                 //动画时间
                 hourglassView.setDuration(6000);
