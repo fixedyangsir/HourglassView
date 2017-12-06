@@ -1,5 +1,7 @@
 # HourglassView
 ## 这是一个仿沙漏的自定义view效果<br />
+## 效果图
+   ![image](https://i.makeagif.com/media/12-06-2017/kG3WPs.gif)
 
 ## 使用方式：<br />
 #### 项目build.gradle添加依赖<br />
@@ -50,8 +52,9 @@ xml:
                 hourglassView.end();
                 //minSDK>=19
                 hourglassView.pause();
+                hourglassView.resume();
                 //状态监听
-                hourglassView.setStateListener(new HourglassView.OnStateListener() {<br />
+                hourglassView.setStateListener(new HourglassView.OnStateListener() {
 
                     @Override
                     public void onStart() {
